@@ -19,12 +19,14 @@ onSearchSubmit= async(entry)=>{
             this.setState({movies:response.data.Search})
             //console.log(this.state.movies)
   }
-  
+
     render(){
       return(
         <div className='movie-app'>
             <SearchInput onSearchSubmit={this.onSearchSubmit}/>
+            <div className='images'>
             <MovieList movies={this.state.movies}></MovieList>
+            </div>
                 
         </div>  
       )
