@@ -1,0 +1,18 @@
+body{
+    background: #0f0c0c;
+    color: #ffffff;
+}
+
+.movie-app{
+    display: flex;
+}
+
+.image-container{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
